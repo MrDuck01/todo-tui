@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# SQLite
+*.db
+
+# OS
+.DS_Stor
+
+#Old
+.old/
+old/
+*.bak

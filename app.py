@@ -1,227 +1,130 @@
 
-from prompt_toolkit import Application
-from prompt_toolkit.application import run_in_terminal
-from prompt_toolkit.key_binding import KeyBindings
-from prompt_toolkit.layout import Layout
-from prompt_toolkit.layout import ScrollOffsets
-from prompt_toolkit.layout.containers import DynamicContainer
-from prompt_toolkit.layout.containers import HSplit
-from prompt_toolkit.layout.containers import Window
-from prompt_toolkit.layout.dimension import Dimension
-from prompt_toolkit.layout import FormattedTextControl
-from prompt_toolkit.styles import Style
-from prompt_toolkit.shortcuts import PromptSession
-from prompt_toolkit.shortcuts import prompt
-from prompt_toolkit.widgets import TextArea
-import asyncio
+from textual.app import App, ComposeResult
+from textual.widgets import Header, Footer, ListView, ListItem, Label
+from textual.reactive import reactive
+from textual.screen import Screen
+from textual import log
+from textual.containers import Vertical
+from datetime import datetime
+
+from ui.status_picker import StatusPicker
+from ui.add_task import AddTaskScreen
+
+import logging 
 
 from core.task import Task
-from storage import sqlite as storage
 from core.status import Status, ORDER, STYLES
-from ui.status_picker import pick_status_async
-from ui.helper import get_task_counts
-from ui.helper import get_footer_text
-from datetime import datetime
+from storage import sqlite as storage
+
+import asyncio
+
+logging.basicConfig(filename="debug.log", level=logging.DEBUG)
 
 # Intial Setup
 
-# session = PromptSession()
+class TaskItem(ListItem):
+    def __init__(self, model: Task):
+        assert isinstance(model, Task), type(model)
+    # self.label = Label()
+    #    super().__init__(self.label)
+        self.model = model
+        super().__init__(Label(str(model)))
 
-# Functions
+    def update_model(self, model: Task):
+        self.model = model
+        self.query_one(Label).update(str(model))
 
-def render_tasks():
-    if not tasks:
-        return "No tasks\n"
     
-    lines = []
-    for i, task in enumerate(tasks):
-        prefix = "> " if i == current_index else "  "
-        lines.append(f"{prefix}{i + 1}. {task}")
-
-    return "\n".join(lines)
-
-def get_task_text():
-    lines = []
-
-    if not tasks:
-        return[("class:text", "No tasks\n")]
+    @property
+    def task(self):
+        return self._task
     
-    for i, task in enumerate(tasks):
-        if i == current_index:
-            style = "class:selected"
-        else:
-            style = STYLES.get(task.status, "class:text")
-        
-        lines.append((style, f"{i + 1}. {task}\n"))
+    @task.setter
+    def task(self, value: Task):
+        self._task = value
+        self.label.update(str(value))
 
-    return lines
-
-def get_header_text():
-    counts = get_task_counts(tasks)
-
-    return [
-        ("class:header", " Tasks "),
-        ("class:count", f"Total: {counts['total'] } "),
-        ("class:active", f"Active: {counts[Status.ACTIVE]} "),
-        ("class:progress", f"In Progress: {counts[Status.IN_PROGRESS]} "),
-        ("class:hold", f"On Hold: {counts[Status.HOLD]} "),
-        ("class:cancelled", f"Cancelled: {counts[Status.CANCELLED]} "),
-        ("", "\n"),
-        ("class:seperator", "-" * 60 + "\n"),
+class TodoApp(App):
+    CSS_PATH = "app.css"
+    BINDINGS = [
+        ("a", "add_task", "Add"),
+        ("s", "toggle_status", "Toggle"),
+        ("q", "quit", "Quit")
     ]
 
-# Window Setup
+    def compose(self) -> ComposeResult:
+        yield Header()
+        yield ListView(id="tasks")
+        yield Footer()
 
-header_control = FormattedTextControl(get_header_text)
-header_window = Window(
-    content = header_control,
-    height = Dimension.exact(3),
-    dont_extend_height=True,
-)
 
-footer_control = FormattedTextControl(get_footer_text)
-footer_window = Window(
-    content = footer_control,
-    height = Dimension.exact(1),
-    dont_extend_height=True,
-)
+    def on_mount(self):
+        storage.init_db()
+        self.tasks = storage.get_all_tasks()
+        self.refresh_list()
 
-task_control = FormattedTextControl(
-    text = get_task_text,
-    focusable=False,
-    show_cursor=False
-)
 
-task_window = Window(
-    content=task_control,
-    always_hide_cursor=True,
-    scroll_offsets=ScrollOffsets(top=1, bottom=1)
-)
+    def refresh_list(self):
+        list_view = self.query_one("#tasks", ListView)
+        list_view.clear()
+        for task in self.tasks:
+            logging.debug(f"refresh_list (build tasks) {task.name} {type(task)}")
+            list_view.append(TaskItem(task))
 
-layout = Layout(
-    HSplit([
-        header_window,
-        task_window,
-        footer_window,
-    ])
-)
-
-# Key Bindings
-
-kb = KeyBindings()
-
-@kb.add("up")
-def move_up(event):
-    global current_index
-    if tasks:
-        current_index = max(0, current_index - 1)
-        event.app.invalidate()
-
-@kb.add("down")
-def move_down(event):
-    global current_index
-    if tasks:
-        current_index = min(len(tasks) -1, current_index + 1)
-        event.app.invalidate() 
-
-@kb.add("s")
-def change_status(event):
-    if not tasks:
-        return
     
-    task = tasks[current_index]
+    def action_add_task(self):
+        self.push_screen(AddTaskScreen(), self._on_task_added)
 
-    async def _change():
-        new_status = await pick_status_async(task.status)
-        if new_status is None:
+
+    def _on_task_added(self, task: Task | None):
+        if task is None:
             return
 
-        task.status = new_status
-        task.last_updated = datetime.now()
+        storage.insert_task(task)
 
-        if new_status == Status.CANCELLED:
-            task.completed_at = task.last_updated
-        else:
-            task.completed_at = None
+    
+    def action_toggle_status(self):
+        list_view = self.query_one(ListView)
+        item = list_view.highlighted_child
+        logging.debug(f"action_toggle_status: item type (inital) {type(item)}")
+        logging.debug(f"action_toggle_status: item.task type (inital) {type(item.task)}")
+        if not item:
+            return
 
-        storage.update_task_status(
-            task.id,
-            task.status.value,
-            task.last_updated,
-            task.completed_at
+        self.push_screen(
+            StatusPicker(),
+            lambda status: self._apply_status(item, status)
         )
 
-        event.app.invalidate()
-
-    asyncio.create_task(_change())
-
-@kb.adqd("a")
-def add_task(event):
-    app = event.app
     
-    async def _add():
-        def ask():
-            return prompt("New task: ")
-    
-        name = await run_in_terminal(ask)
+    def _apply_status(self, item, status):
+        logging.debug(f"_apply_status: item type (initial) {type(item)}")
+        logging.debug(f"_apply_status: item.model type (initial) {type(item.model)}")
 
-        if not name:
+        if status is None:
             return
-        name = name.strip()
-        if not name:
+        
+        #assert isinstance(item.task, Task)
+
+        item.model.set_status(status)
+        dt = datetime.now()
+        if status == Status.COMPLETED:
+            cd = dt
+        else:
+            cd = None
+        storage.update_task_status(item.model, status, dt, cd)
+        item.refresh()
+
+    def action_change_status(self):
+        self.push_screen(StatusPicker)
+
+    def action_delete_task(self):
+        list_view = self.query_one("#tasks", ListView)
+        if list_view.index is None:
             return
+        task = self.tasks.pop(list_view.index)
+        storage.delete_task(task.id)
+        self.refresh_list()
 
-        task = Task(name)
-        storage.insert_task(task)
-        tasks.append(task)
-        app.invalidate()
-    asyncio.create_task(_add())
-
-
-@kb.add("d")
-def delete_task(event):
-    global current_index
-    if not tasks:
-        return
-
-    task = tasks[current_index]
-    storage.delete_task(task)
-    tasks.pop(current_index)
-    current_index = max(0, current_index - 1)
-
-    event.app.invalidate()
-
-@kb.add("q")
-def quit_app(event):
-    event.app.exit()
-
-# Initialise storage
-storage.init_db()
-tasks = storage.get_all_tasks()
-current_index = 0
-
-
-# Style
-
-style = Style.from_dict({
-    "header": "bold",
-    "seperator": "fg:#444444",
-    
-    "count": "fg:white",
-    "active": "fg:green",
-    "progress": "fg:yellow",
-    "hold": "fg:cyan",
-    "cancelled": "fg:red",
-
-    "text": "",
-    "selected": "reverse",
-})
-
-app = Application(
-    layout = layout,
-    key_bindings = kb,
-    style = style,
-    full_screen = True
-)
-
-app.run()
+if __name__ == "__main__":
+    TodoApp().run()

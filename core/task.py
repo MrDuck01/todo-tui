@@ -1,7 +1,7 @@
 from datetime import datetime
 import uuid
 
-from core.status import Status
+from core.status import Status, ORDER
 
 class Task: 
 
@@ -33,6 +33,12 @@ class Task:
             self.completed_at.isoformat() if self.completed_at else ""
         ])
     
+    def cycle_status(self):
+        i = ORDER.index(self.status)
+        next_status = ORDER[i+1 % len(ORDER)]
+
+        self.set_status(next_status)
+    
     @staticmethod
     def from_line(line):
         parts = line.strip().split("|")
@@ -62,16 +68,3 @@ class Task:
     def __str__(self):
         return f"[{self.status.value}] {self.name}"
     
-        
-        """
-        if status not in self.STATUSES:
-            raise ValueError(f"Status invalid {status}")
-
-        self.status = status
-        self.last_updated = datetime.now()
-
-        if status == "completed":
-            self.completed_at = self.last_updated
-        else:
-            self.completed_at = None
-        """

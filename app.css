@@ -1,0 +1,33 @@
+Screen {
+    background: $background;
+}
+
+/* Task List */
+ListView {
+    height: 1fr;
+    margin: 1;
+    border: round $accent;
+}
+
+/* Individual task rows */
+TaskItem {
+    padding: 0 1;
+}
+
+/* Selected task */
+TaskItem.-highlight {
+    background: $accent;
+    color: $text;
+}
+
+/* Header */
+Header {
+    background: $surface;
+    color: $text
+}
+
+/* Footer (key hints) */
+Footer {
+    background: $surface;
+    color: $text;
+}

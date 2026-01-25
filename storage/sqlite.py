@@ -53,7 +53,7 @@ def get_all_tasks():
 
     return tasks
 
-def update_task_status(task_id, status, last_updated, completed_at):
+def update_task_status(task, status, last_updated, completed_at):
     with get_connection() as conn:
         conn.execute("""
                      update tasks
@@ -63,10 +63,10 @@ def update_task_status(task_id, status, last_updated, completed_at):
                         completed_at = ?
                      where id = ?
                      """, (
-                         status,
+                         status.value,
                          last_updated.isoformat(),
                          completed_at.isoformat() if completed_at else None,
-                         task_id
+                         task.id
                      ))
 
 
@@ -77,26 +77,3 @@ def delete_task(task):
                     where id = ?
                     """, (task.id,)
         )
-
-
-"""
-def update_task(task):                        
-    with get_connection() as conn:
-        cur = conn.cursor()
-
-        cur.execute(
-                    update tasks
-                    set
-                        status = ?,
-                        last_updated = ?,
-                        completed_at = ?
-                    where id = ?
-                    , (
-                        task.status,
-                         task.last_updated.isoformat(),
-                        task.completed_at.isoformat() if task.completed_at else None,
-                        task.id
-                    ))
-        
-        conn.commit()
-"""

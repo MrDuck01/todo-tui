@@ -4,7 +4,7 @@ from textual.widgets import Header, Footer, ListView, ListItem, Label
 from textual.reactive import reactive
 from textual.screen import Screen
 from textual import log
-from textual.containers import Vertical
+from textual.containers import Vertical, Horizontal
 from datetime import datetime
 
 from ui.status_picker import StatusPicker
@@ -25,10 +25,23 @@ logging.basicConfig(filename="debug.log", level=logging.DEBUG)
 class TaskItem(ListItem):
     def __init__(self, model: Task):
         assert isinstance(model, Task), type(model)
-    # self.label = Label()
-    #    super().__init__(self.label)
         self.model = model
-        super().__init__(Label(str(model)))
+        super().__init__(
+            Horizontal(
+                Label(model.name, classes="col-name"),
+                Label("|", classes="col-sep"),
+                Label(model.status.value, classes = "col-status"),
+                Label("|", classes="col-sep"),
+                Label(model.create_at.strftime("%Y-%m-%d"), classes="col-created"),
+                Label("|", classes="col-sep"),
+                Label(model.last_updated.strftime("%Y-%m-%d %H:%M"), classes="col-updated"),
+            )
+        )
+    
+    def refresh_row(self):
+        labels = self.query(Label)
+        labels[1].update(self.model.status.value)
+        labels[3].update(self.model.last_updated.strftime("%Y-%m-%d"))
 
     def update_model(self, model: Task):
         self.model = model
@@ -49,12 +62,55 @@ class TodoApp(App):
     BINDINGS = [
         ("a", "add_task", "Add"),
         ("s", "toggle_status", "Toggle"),
+        ("d", "action_delete_task", "Delete"),
         ("q", "quit", "Quit")
     ]
 
+    def update_summary(self):
+        total = len(self.tasks)
+        active = sum(1 for t in self.tasks if t.status == Status.ACTIVE)
+        progress = sum(1 for t in self.tasks if t.status == Status.IN_PROGRESS)
+        hold = sum(1 for t in self.tasks if t.status == Status.HOLD)
+        
+        logging.debug(f"Update Summary -- Total {total}")
+        logging.debug(f"Update Summary -- Active {active}")
+        logging.debug(f"Update Summary -- Progress {progress}")
+        logging.debug(f"Update Summary -- Hold {hold}")
+        
+        text = (
+            f"Total: {total} | "
+            f"Active: {active} | "
+            f"In Progress: {progress} | "
+            f"On Hold: {hold}"
+        )
+
+        self.query_one("#summary", Label).update(text)
+
+    def watch_summary(self, value):
+        self.query_one("#summary", Label).update(value)
+    
+
     def compose(self) -> ComposeResult:
         yield Header()
-        yield ListView(id="tasks")
+
+        yield Vertical(
+            Horizontal(
+                Label("Tasks", id="summary"),
+                id="summary-bar"
+            ),
+            Horizontal(
+                Label("Task", classes="col-name header"),
+                Label("|", classes="col-sep"),
+                Label("Status", classes="col-status header"),
+                Label("|", classes="col-sep"),
+                Label("Created", classes="col-created header"),
+                Label("|", classes="col-sep"),
+                Label("Updated", classes="col-updated header"),
+                classes="table-header",
+            ),
+            ListView(id="tasks"),
+            id="main",
+        )
         yield Footer()
 
 
@@ -62,6 +118,7 @@ class TodoApp(App):
         storage.init_db()
         self.tasks = storage.get_all_tasks()
         self.refresh_list()
+        self.update_summary()
 
 
     def refresh_list(self):
@@ -113,7 +170,7 @@ class TodoApp(App):
         else:
             cd = None
         storage.update_task_status(item.model, status, dt, cd)
-        item.refresh()
+        item.refresh_row()
 
     def action_change_status(self):
         self.push_screen(StatusPicker)

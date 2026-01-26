@@ -2,32 +2,90 @@ Screen {
     background: $background;
 }
 
-/* Task List */
-ListView {
+/* ---------- Layout ---------- */
+
+#main {
+    height: auto;
+}
+
+#tasks {
     height: 1fr;
     margin: 1;
     border: round $accent;
 }
 
-/* Individual task rows */
-TaskItem {
-    padding: 0 1;
+/* ---------- Header rows ---------- */
+
+.table-header {
+    background: #222;
+    height: 2;
+    border-bottom: solid gray;
+    
 }
 
-/* Selected task */
+.header {
+    text-style: bold;
+    color: $text;
+}
+
+/* ---------- Summary bar ---------- */
+
+#summary-bar {
+    padding: 1;
+    background: $surface;
+    height: 3;
+}
+
+/* ---------- Task rows ---------- */
+
+TaskItem {
+    padding: 0 1;
+    height: auto;
+}
+
+TaskItem > Horizontal {
+    height: auto;
+    align: left middle;
+}
+
+/* ---------- Columns ---------- */
+
+.col-name {
+    width: 1fr;
+}
+
+.col-status {
+    width: 14;
+    text-align: center;
+}
+
+.col-created {
+    width: 18;
+    text-align: center;
+}
+
+.col-updated {
+    width: 18;
+    text-align: center;
+}
+
+.col-sep {
+    width: 1;
+    padding: 0 1;
+    text-align: center;
+}
+
+
+/* ---------- Selection ---------- */
+
 TaskItem.-highlight {
     background: $accent;
     color: $text;
 }
 
-/* Header */
-Header {
-    background: $surface;
-    color: $text
-}
+/* ---------- Header / Footer ---------- */
 
-/* Footer (key hints) */
-Footer {
+Header, Footer {
     background: $surface;
     color: $text;
 }

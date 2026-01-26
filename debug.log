@@ -525,3 +525,1499 @@ DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
 DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
 DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
 DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:refresh_list (build tasks) a newly added task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new test on Monday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) second time trying <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) test task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) third task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 4th task on tuesday <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 5th time a charm <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ksdfkjds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) Another task added in <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) another test on redraw <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) yet another test# <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) bored of testing <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) again <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test?! hopefull <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) teste <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) final test please god work <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) klsjdhfklsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) lksdfg <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) ds <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) dsfsdf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfdsf <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sdfsdf sd fsda fas f <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) My new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) 2026-01-23 Another new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) a new task <class 'core.task.Task'>
+DEBUG:root:refresh_list (build tasks) sadsad <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5

@@ -4,6 +4,7 @@ from textual.widgets import Header, Footer, ListView, ListItem, Label
 from textual.reactive import reactive
 from textual.screen import Screen
 from textual import log
+from textual.binding import Binding
 from textual.containers import Vertical, Horizontal
 from datetime import datetime
 
@@ -39,9 +40,13 @@ class TaskItem(ListItem):
         )
     
     def refresh_row(self):
-        labels = self.query(Label)
-        labels[1].update(self.model.status.value)
-        labels[3].update(self.model.last_updated.strftime("%Y-%m-%d"))
+        self.query_one(".col-status", Label).update(self.model.status.value)
+        self.query_one(".col-updated", Label).update(
+            self.model.last_updated.strftime("%Y-%m-%d %H:%M")
+        )
+        #labels = self.query(Label)
+        #labels[1].update(self.model.status.value)
+        #labels[3].update(self.model.last_updated.strftime("%Y-%m-%d"))
 
     def update_model(self, model: Task):
         self.model = model
@@ -58,12 +63,20 @@ class TaskItem(ListItem):
         self.label.update(str(value))
 
 class TodoApp(App):
+
+    filter_status: Status | None = None 
+
     CSS_PATH = "app.css"
     BINDINGS = [
-        ("a", "add_task", "Add"),
-        ("s", "toggle_status", "Toggle"),
-        ("d", "action_delete_task", "Delete"),
-        ("q", "quit", "Quit")
+        Binding("a", "add_task", "Add"),
+        Binding("s", "toggle_status", "Toggle"),
+        Binding("d", "action_delete_task", "Delete"),
+        Binding("q", "quit", "Quit"),
+        Binding("f", "filter_active", "Active", priority=True),
+        Binding("i", "filter_in_progress", "In Progress", priority=True),
+        Binding("h", "filter_hold", "On Hold", priority=True),
+        Binding("c", "filter_cancelled", "Cancelled", priority=True),
+        Binding("x", "clear_filter", "All", priority=True),
     ]
 
     def update_summary(self):
@@ -89,7 +102,6 @@ class TodoApp(App):
     def watch_summary(self, value):
         self.query_one("#summary", Label).update(value)
     
-
     def compose(self) -> ComposeResult:
         yield Header()
 
@@ -113,32 +125,31 @@ class TodoApp(App):
         )
         yield Footer()
 
-
     def on_mount(self):
         storage.init_db()
         self.tasks = storage.get_all_tasks()
         self.refresh_list()
         self.update_summary()
 
-
     def refresh_list(self):
         list_view = self.query_one("#tasks", ListView)
         list_view.clear()
-        for task in self.tasks:
-            logging.debug(f"refresh_list (build tasks) {task.name} {type(task)}")
-            list_view.append(TaskItem(task))
 
-    
+        tasks = self.tasks
+        if self.filter_status is not None:
+            tasks = [t for t in tasks if t.status == self.filter_status]
+
+        for task in tasks:
+            list_view.append(TaskItem(task))
+  
     def action_add_task(self):
         self.push_screen(AddTaskScreen(), self._on_task_added)
-
 
     def _on_task_added(self, task: Task | None):
         if task is None:
             return
 
         storage.insert_task(task)
-
     
     def action_toggle_status(self):
         list_view = self.query_one(ListView)
@@ -152,16 +163,13 @@ class TodoApp(App):
             StatusPicker(),
             lambda status: self._apply_status(item, status)
         )
-
-    
+        
     def _apply_status(self, item, status):
         logging.debug(f"_apply_status: item type (initial) {type(item)}")
         logging.debug(f"_apply_status: item.model type (initial) {type(item.model)}")
 
         if status is None:
             return
-        
-        #assert isinstance(item.task, Task)
 
         item.model.set_status(status)
         dt = datetime.now()
@@ -171,6 +179,7 @@ class TodoApp(App):
             cd = None
         storage.update_task_status(item.model, status, dt, cd)
         item.refresh_row()
+        self.update_summary()
 
     def action_change_status(self):
         self.push_screen(StatusPicker)
@@ -182,6 +191,32 @@ class TodoApp(App):
         task = self.tasks.pop(list_view.index)
         storage.delete_task(task.id)
         self.refresh_list()
+
+    def action_filter_active(self):
+        logging.debug(f"Filter applied f a ")
+        self.filter_status = Status.ACTIVE
+        self.refresh_list()
+
+    def action_filter_in_progress(self):
+        logging.debug(f"Filter applied f i ")
+        self.filter_status = Status.IN_PROGRESS
+        self.refresh_list()
+
+    def action_filter_hold(self):
+        logging.debug(f"Filter applied f h ")
+        self.filter_status = Status.HOLD
+        self.refresh_list()
+
+    def action_filter_cancelled(self):
+        logging.debug(f"Filter applied f c ")
+        self.filter_status = Status.CANCELLED
+        self.refresh_list()
+
+    def action_clear_filter(self):
+        logging.debug(f"Filter applied f x ")
+        self.filter_status = None
+        self.refresh_list()
+
 
 if __name__ == "__main__":
     TodoApp().run()

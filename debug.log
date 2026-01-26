@@ -2021,3 +2021,184 @@ DEBUG:root:Update Summary -- Total 31
 DEBUG:root:Update Summary -- Active 18
 DEBUG:root:Update Summary -- Progress 1
 DEBUG:root:Update Summary -- Hold 5
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 19
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 3
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 3
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 3
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 3
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:root:Filter applied f a 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:root:Filter applied f a 
+DEBUG:root:Filter applied f c 
+DEBUG:root:Filter applied f h 
+DEBUG:root:Filter applied f x 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 31
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Filter applied f h 
+DEBUG:root:Filter applied f x 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 2
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 19
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:Filter applied f a 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:Filter applied f h 
+DEBUG:root:Filter applied f h 
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 6
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 19
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 6
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 6
+DEBUG:root:Filter applied f a 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 17
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 6
+DEBUG:root:Filter applied f x 
+DEBUG:root:Filter applied f x 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 18
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 5
+DEBUG:root:Filter applied f h 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 32
+DEBUG:root:Update Summary -- Active 19
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 4
+DEBUG:root:Filter applied f x 

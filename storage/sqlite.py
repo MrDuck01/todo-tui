@@ -43,9 +43,9 @@ def get_all_tasks():
         rows = conn.execute("select * from tasks").fetchall()
 
     for row in rows:
-        task = Task(row[1])
+        task = Task(row[1], row[2])
         task.id = row[0]
-        task.category = row[2]
+        # task.category = row[2]
         task.status = Status(row[3])
         task.created_at = datetime.fromisoformat(row[4])
         task.last_updated = datetime.fromisoformat(row[5])

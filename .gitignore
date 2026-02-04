@@ -11,7 +11,7 @@ venv/
 *.db
 
 # OS
-.DS_Stor
+.DS_Store
 
 #Old
 .old/

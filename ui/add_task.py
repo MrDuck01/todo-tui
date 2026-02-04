@@ -8,6 +8,7 @@ class AddTaskScreen(ModalScreen[Task | None]):
     def compose(self):
         yield Vertical(
             Input(placeholder = "Task name", id="name"),
+            Input(placeholder = "Category", id="category"),
             Button("Add", id="add"),
             Button("Cancel", id="cancel"),
         )
@@ -16,8 +17,9 @@ class AddTaskScreen(ModalScreen[Task | None]):
     def on_button_pressed(self, event: Button.Pressed):
         if event.button.id == "add":
             name = self.query_one("#name", Input).value.strip()
+            category = self.query_one("#category", Input).value.strip()
             if name:
-                self.dismiss(Task(name))
+                self.dismiss(Task(name, category))
             else:
                 self.dismiss(None)
 

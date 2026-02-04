@@ -14,6 +14,7 @@ def init_db():
         create table if not exists tasks(
             id text primary key,
             name text not null,
+            category text not null,
             status text not null,
             created_at text not null,
             last_updated text not null,
@@ -24,12 +25,13 @@ def init_db():
 def insert_task(task):
     with get_connection() as conn:
         conn.execute("""
-        insert into tasks values(?, ?, ?, ?, ?, ?)
+        insert into tasks values(?, ?, ?, ?, ?, ?, ?)
         """, (
             task.id,
             task.name,
+            task.category,
             task.status.value,
-            task.create_at.isoformat(),
+            task.created_at.isoformat(),
             task.last_updated.isoformat(),
             task.completed_at.isoformat() if task.completed_at else None
         ))
@@ -43,11 +45,12 @@ def get_all_tasks():
     for row in rows:
         task = Task(row[1])
         task.id = row[0]
-        task.status = Status(row[2])
-        task.create_at = datetime.fromisoformat(row[3])
-        task.last_updated = datetime.fromisoformat(row[4])
+        task.category = row[2]
+        task.status = Status(row[3])
+        task.created_at = datetime.fromisoformat(row[4])
+        task.last_updated = datetime.fromisoformat(row[5])
         task.completed_at = (
-                datetime.fromisoformat(row[5]) if row[5] else None
+                datetime.fromisoformat(row[6]) if row[6] else None
         )
         tasks.append(task)
 

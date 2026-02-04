@@ -7,12 +7,12 @@ from textual import log
 from textual.binding import Binding
 from textual.containers import Vertical, Horizontal
 from datetime import datetime
+import logging 
+from enum import Enum, auto
+
 
 from ui.status_picker import StatusPicker
 from ui.add_task import AddTaskScreen
-
-import logging 
-
 from core.task import Task
 from core.status import Status, ORDER, STYLES
 from storage import sqlite as storage
@@ -22,6 +22,13 @@ import asyncio
 logging.basicConfig(filename="debug.log", level=logging.DEBUG)
 
 # Intial Setup
+class SortKey(Enum):
+    NAME = auto()
+    CATEGORY = auto()
+    STATUS = auto()
+    CREATED = auto()
+    UPDATED = auto()
+
 
 class TaskItem(ListItem):
     def __init__(self, model: Task):
@@ -31,9 +38,11 @@ class TaskItem(ListItem):
             Horizontal(
                 Label(model.name, classes="col-name"),
                 Label("|", classes="col-sep"),
+                Label(model.category, classes="col-category"),
+                Label("|", classes="col-sep"),
                 Label(model.status.value, classes = "col-status"),
                 Label("|", classes="col-sep"),
-                Label(model.create_at.strftime("%Y-%m-%d"), classes="col-created"),
+                Label(model.created_at.strftime("%Y-%m-%d"), classes="col-created"),
                 Label("|", classes="col-sep"),
                 Label(model.last_updated.strftime("%Y-%m-%d %H:%M"), classes="col-updated"),
             )
@@ -44,15 +53,13 @@ class TaskItem(ListItem):
         self.query_one(".col-updated", Label).update(
             self.model.last_updated.strftime("%Y-%m-%d %H:%M")
         )
-        #labels = self.query(Label)
-        #labels[1].update(self.model.status.value)
-        #labels[3].update(self.model.last_updated.strftime("%Y-%m-%d"))
+        
 
     def update_model(self, model: Task):
         self.model = model
         self.query_one(Label).update(str(model))
 
-    
+    """
     @property
     def task(self):
         return self._task
@@ -61,10 +68,14 @@ class TaskItem(ListItem):
     def task(self, value: Task):
         self._task = value
         self.label.update(str(value))
+    """
 
 class TodoApp(App):
 
+
     filter_status: Status | None = None 
+    sort_key: SortKey | None = None
+    sort_reverse: bool = False
 
     CSS_PATH = "app.css"
     BINDINGS = [
@@ -77,6 +88,12 @@ class TodoApp(App):
         Binding("h", "filter_hold", "On Hold", priority=True),
         Binding("c", "filter_cancelled", "Cancelled", priority=True),
         Binding("x", "clear_filter", "All", priority=True),
+        Binding("1", "sort_name", "Sort Name"),
+        Binding("2", "sort_category", "Sort Category"),
+        Binding("3", "sort_status", "Sort Status"),
+        Binding("4", "sort_created", "Sort Created"),
+        Binding("5", "sort_updated", "Sort Updated"),
+        Binding("r", "reverse_sort", "Reverse")
     ]
 
     def update_summary(self):
@@ -101,9 +118,21 @@ class TodoApp(App):
 
     def watch_summary(self, value):
         self.query_one("#summary", Label).update(value)
-    
+        def action_add_task(self):
+         self.push_screen(AddTaskScreen(), self._on_task_added)
+
+    def on_mount(self):
+        storage.init_db()
+        self.tasks = storage.get_all_tasks()
+        self.refresh_list()
+        self.update_summary()
+
+# Display and Sorting
+
     def compose(self) -> ComposeResult:
-        yield Header()
+        yield Header(
+            Label(self._sort_label("Task", SortKey.NAME), classes= "col-name header")
+        )
 
         yield Vertical(
             Horizontal(
@@ -112,6 +141,8 @@ class TodoApp(App):
             ),
             Horizontal(
                 Label("Task", classes="col-name header"),
+                Label("|", classes="col-sep"),
+                Label("Category", classes="col-category header"),
                 Label("|", classes="col-sep"),
                 Label("Status", classes="col-status header"),
                 Label("|", classes="col-sep"),
@@ -125,31 +156,93 @@ class TodoApp(App):
         )
         yield Footer()
 
-    def on_mount(self):
-        storage.init_db()
-        self.tasks = storage.get_all_tasks()
-        self.refresh_list()
-        self.update_summary()
+    def _sort_label(self, text: str, key: SortKey) -> str:
+        if self.sort_key != key:
+            return text
+        return f"{text} {'↓' if self.sort_reverse else '↑'}"
 
     def refresh_list(self):
+        logging.debug(f"get_visible_tasks attr: {self.get_visible_tasks}")
+        tasks = self.get_visible_tasks()
+        logging.debug(f"get_visible_tasks() returned: {tasks!r}")
+        logging.debug(f"type: {type(tasks)}")
+
         list_view = self.query_one("#tasks", ListView)
         list_view.clear()
 
-        tasks = self.tasks
-        if self.filter_status is not None:
-            tasks = [t for t in tasks if t.status == self.filter_status]
-
         for task in tasks:
             list_view.append(TaskItem(task))
-  
+
+    def get_visible_tasks(self) -> list[Task]:
+        tasks = list(self.tasks)
+
+        # filter
+        if self.filter_status is not None:
+            tasks = [t for t in tasks if t.status == self.filter_status]
+        
+        # sort
+        if self.sort_key is not None:
+            tasks.sort(
+                key = self._sort_key_func,
+                reverse = self.sort_reverse
+            )
+
+        return tasks
+
+    def _sort_key_func(self, task: Task):
+        match self.sort_key:
+            case SortKey.NAME:
+                return task.name.lower()
+            case SortKey.CATEGORY:
+                return task.category.lower()
+            case SortKey.STATUS:
+                return ORDER.index(task.status)
+            case SortKey.CREATED:
+                return task.created_at
+            case SortKey.UPDATED:
+                return task.last_updated
+
+    def _set_sort(self, key: SortKey):
+        if self.sort_key == key:
+            self.sort_reverse = not self.sort_reverse
+        else:
+            self.sort_key = key
+            self.sort_reverse = False
+        
+        self.refresh_list()
+    
+# Actions
+
+    def action_sort_name(self):
+        self._set_sort(SortKey.NAME)
+    
+    def action_sort_category(self):
+        self._set_sort(SortKey.CATEGORY)
+
+    def action_sort_status(self):
+        self._set_sort(SortKey.STATUS)
+
+    def action_sort_created(self):
+        self._set_sort(SortKey.CREATED)
+    
+    def action_sort_updated(self):
+        self._set_sort(SortKey.UPDATED)
+    
+    def action_reverse_sort(self):
+        self.sort_reverse = not self.sort_reverse
+        self.refresh_list()
+
     def action_add_task(self):
         self.push_screen(AddTaskScreen(), self._on_task_added)
 
     def _on_task_added(self, task: Task | None):
         if task is None:
             return
-
+        logging.debug(f"Add Task event: {task.name} | {task.category}")
         storage.insert_task(task)
+        self.tasks.append(task)
+        self.refresh_list()
+        self.update_summary()
     
     def action_toggle_status(self):
         list_view = self.query_one(ListView)

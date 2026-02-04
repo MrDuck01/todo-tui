@@ -2202,3 +2202,370 @@ DEBUG:root:Update Summary -- Active 19
 DEBUG:root:Update Summary -- Progress 0
 DEBUG:root:Update Summary -- Hold 4
 DEBUG:root:Filter applied f x 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f i 
+DEBUG:root:Filter applied f c 
+DEBUG:root:Filter applied f x 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f i 
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f x 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:Filter applied f i 
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f i 
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f x 
+DEBUG:root:Filter applied f h 
+DEBUG:root:Filter applied f x 
+DEBUG:root:Update Summary -- Total 4
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f a 
+DEBUG:root:Filter applied f h 
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 1
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 1
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f i 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 1
+DEBUG:root:Filter applied f x 
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 2
+DEBUG:root:Filter applied f c 
+DEBUG:root:Filter applied f x 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 2
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: Suit jacket for funeral | 
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: Suit jacket | Home
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: suit | home
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: suit | home
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: test | home
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: None
+DEBUG:root:type: <class 'NoneType'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks() returned: None
+DEBUG:root:type: <class 'NoneType'>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 0
+DEBUG:root:Update Summary -- Active 0
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: Organise Suit | Home
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: submit bid file | Work
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71df6d50>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71df6d50>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Add Task event: check conversion | work
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: mac grading | work
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 4
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: pay funeral | home
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:action_toggle_status: item type (inital) <class '__main__.TaskItem'>
+DEBUG:root:action_toggle_status: item.task type (inital) <class '_asyncio.Task'>
+DEBUG:root:_apply_status: item type (initial) <class '__main__.TaskItem'>
+DEBUG:root:_apply_status: item.model type (initial) <class 'core.task.Task'>
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 1
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d734e9e80>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Add Task event: a | work
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 6
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 1
+DEBUG:root:Add Task event: z | home
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71397680>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 7
+DEBUG:root:Update Summary -- Active 6
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 1
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71397680>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d72091910>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71397680>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d72091910>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71397680>, <core.task.Task object at 0x7f8d734e9e80>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71397680>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71397680>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d71397680>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d72091910>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x7f8d72091910>, <core.task.Task object at 0x7f8d71a839d0>, <core.task.Task object at 0x7f8d722eac40>, <core.task.Task object at 0x7f8d734e9e80>, <core.task.Task object at 0x7f8d71d46060>, <core.task.Task object at 0x7f8d71df6d50>, <core.task.Task object at 0x7f8d71397680>]
+DEBUG:root:type: <class 'list'>

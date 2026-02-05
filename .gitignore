@@ -17,3 +17,7 @@ venv/
 .old/
 old/
 *.bak
+
+#Build
+build/
+dist/

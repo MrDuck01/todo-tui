@@ -11,6 +11,7 @@ import logging
 from enum import Enum, auto
 
 
+from ui.categories import CategoryPicker
 from ui.status_picker import StatusPicker
 from ui.add_task import AddTaskScreen
 from core.task import Task
@@ -72,8 +73,8 @@ class TaskItem(ListItem):
 
 class TodoApp(App):
 
-
     filter_status: Status | None = None 
+    filter_category: str | None = None
     sort_key: SortKey | None = None
     sort_reverse: bool = False
 
@@ -83,6 +84,7 @@ class TodoApp(App):
         Binding("s", "toggle_status", "Toggle"),
         Binding("d", "action_delete_task", "Delete"),
         Binding("q", "quit", "Quit"),
+        Binding("b", "filter_screen", "Filter"),
         Binding("f", "filter_active", "Active", priority=True),
         Binding("i", "filter_in_progress", "In Progress", priority=True),
         Binding("h", "filter_hold", "On Hold", priority=True),
@@ -179,7 +181,9 @@ class TodoApp(App):
         # filter
         if self.filter_status is not None:
             tasks = [t for t in tasks if t.status == self.filter_status]
-        
+        if self.filter_category is not None:
+            tasks = [t for t in tasks if t.category.lower() == self.filter_category.lower()]
+
         # sort
         if self.sort_key is not None:
             tasks.sort(
@@ -234,7 +238,7 @@ class TodoApp(App):
 
     def action_add_task(self):
         self.push_screen(AddTaskScreen(), self._on_task_added)
-
+    
     def _on_task_added(self, task: Task | None):
         if task is None:
             return
@@ -244,6 +248,16 @@ class TodoApp(App):
         self.refresh_list()
         self.update_summary()
     
+    def action_filter_screen(self):
+        self.push_screen(CategoryPicker(), self._on_category_selected)
+
+    def _on_category_selected(self, category: str | None):
+        if category is None:
+            return
+        logging.debug(f"Selected category: {category}")
+        self.filter_category = category
+        self.refresh_list()
+
     def action_toggle_status(self):
         list_view = self.query_one(ListView)
         item = list_view.highlighted_child

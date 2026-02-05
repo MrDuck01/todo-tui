@@ -56,6 +56,17 @@ def get_all_tasks():
 
     return tasks
 
+def get_categorys():
+    categorys = []
+
+    with get_connection() as conn:
+        rows = conn.execute("select distinct category from tasks").fetchall()
+
+    for row in rows:
+        categorys.append(row[0].title())
+    
+    return categorys
+
 def update_task_status(task, status, last_updated, completed_at):
     with get_connection() as conn:
         conn.execute("""
@@ -71,7 +82,6 @@ def update_task_status(task, status, last_updated, completed_at):
                          completed_at.isoformat() if completed_at else None,
                          task.id
                      ))
-
 
 def delete_task(task):
     with get_connection() as conn:

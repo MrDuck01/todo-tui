@@ -63,7 +63,7 @@ def get_categorys():
         rows = conn.execute("select distinct category from tasks").fetchall()
 
     for row in rows:
-        categorys.append(row[0].title())
+        categorys.append(row[0])
     
     return categorys
 

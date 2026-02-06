@@ -178,12 +178,15 @@ class TodoApp(App):
     def get_visible_tasks(self) -> list[Task]:
         tasks = list(self.tasks)
 
-        # filter
-        if self.filter_status is not None:
-            tasks = [t for t in tasks if t.status == self.filter_status]
-        if self.filter_category is not None:
-            tasks = [t for t in tasks if t.category.lower() == self.filter_category.lower()]
+        logging.debug(f"get_visible_tasks: filter_status={self.filter_status}, filter_category={self.filter_category}, sort_key={self.sort_key}, sort_reverse={self.sort_reverse}")
 
+        # filter
+        tasks = [
+            t for t in tasks
+                if (self.filter_status is None or t.status == self.filter_status)
+                and (self.filter_category is None or t.category == self.filter_category)
+                
+          ]
         # sort
         if self.sort_key is not None:
             tasks.sort(
@@ -322,6 +325,7 @@ class TodoApp(App):
     def action_clear_filter(self):
         logging.debug(f"Filter applied f x ")
         self.filter_status = None
+        self.filter_category = None
         self.refresh_list()
 
 

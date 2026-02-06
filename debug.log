@@ -2759,3 +2759,432 @@ DEBUG:root:Update Summary -- Total 1
 DEBUG:root:Update Summary -- Active 1
 DEBUG:root:Update Summary -- Progress 0
 DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1085529f0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1046ab620>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f a 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1046ab620>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x104657ad0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106603290>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10792c560>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x108956600>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102e7f740>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102d55df0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1046cb7a0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 1
+DEBUG:root:Update Summary -- Active 1
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: test | test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1046cb7a0>, <core.task.Task object at 0x104d02270>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1065537d0>, <core.task.Task object at 0x106551eb0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1063e01d0>, <core.task.Task object at 0x1063e3950>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: Powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=Powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: []
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106fb38c0>, <core.task.Task object at 0x106fb3a10>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106fb38c0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f a 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=Status.ACTIVE, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106fb38c0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Selected category: test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=Status.ACTIVE, filter_category=test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106fb3a10>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1028fa390>, <core.task.Task object at 0x1028fb410>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102c30050>, <core.task.Task object at 0x102c32000>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102c30050>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106c8a780>, <core.task.Task object at 0x106c8b860>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106c8b860>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Selected category: test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106c8b860>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Selected category: powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106c8a780>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x118b4f7a0>, <core.task.Task object at 0x118b4c110>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x118b4f7a0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x118b4f7a0>, <core.task.Task object at 0x118b4c110>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106cff470>, <core.task.Task object at 0x106cff710>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: powerbi
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=powerbi, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106cff470>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Selected category: test
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=test, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106cff710>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106cff470>, <core.task.Task object at 0x106cff710>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1041537d0>, <core.task.Task object at 0x104150410>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1026a34a0>, <core.task.Task object at 0x1026a3770>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1048b1ca0>, <core.task.Task object at 0x1048b1430>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106180920>, <core.task.Task object at 0x106182e70>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10231c980>, <core.task.Task object at 0x10231fce0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 2
+DEBUG:root:Update Summary -- Active 2
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: test | manal category
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10231c980>, <core.task.Task object at 0x10231fce0>, <core.task.Task object at 0x10291c5c0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Selected category: manal category
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=manal category, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10291c5c0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10231c980>, <core.task.Task object at 0x10231fce0>, <core.task.Task object at 0x10291c5c0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10346fc20>, <core.task.Task object at 0x10346fd40>, <core.task.Task object at 0x10346ee70>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10476cbc0>, <core.task.Task object at 0x10476ef90>, <core.task.Task object at 0x10476f020>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x104b408c0>, <core.task.Task object at 0x104b42e40>, <core.task.Task object at 0x104b42f30>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x1024a3470>, <core.task.Task object at 0x1024a00e0>, <core.task.Task object at 0x1024a2060>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102fc3bf0>, <core.task.Task object at 0x102fc2e70>, <core.task.Task object at 0x102fc3860>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102a55f10>, <core.task.Task object at 0x102a57470>, <core.task.Task object at 0x102a552e0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106fbe3f0>, <core.task.Task object at 0x106d24bc0>, <core.task.Task object at 0x106fbe1b0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10735d430>, <core.task.Task object at 0x10735d3a0>, <core.task.Task object at 0x10735dfd0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x105a543b0>, <core.task.Task object at 0x105a578c0>, <core.task.Task object at 0x105a562a0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 3
+DEBUG:root:Update Summary -- Active 3
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Add Task event: test 3 | new query
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x105a543b0>, <core.task.Task object at 0x105a578c0>, <core.task.Task object at 0x105a562a0>, <core.task.Task object at 0x105f87d70>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Update Summary -- Total 4
+DEBUG:root:Update Summary -- Active 4
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Filter applied f a 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=Status.ACTIVE, filter_category=None, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x105a543b0>, <core.task.Task object at 0x105a578c0>, <core.task.Task object at 0x105a562a0>, <core.task.Task object at 0x105f87d70>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Selected category: manal category
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=Status.ACTIVE, filter_category=manal category, sort_key=None, sort_reverse=False
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x105a562a0>]
+DEBUG:root:type: <class 'list'>

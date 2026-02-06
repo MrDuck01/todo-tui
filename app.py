@@ -60,21 +60,11 @@ class TaskItem(ListItem):
         self.model = model
         self.query_one(Label).update(str(model))
 
-    """
-    @property
-    def task(self):
-        return self._task
-    
-    @task.setter
-    def task(self, value: Task):
-        self._task = value
-        self.label.update(str(value))
-    """
-
 class TodoApp(App):
 
     filter_status: Status | None = None 
     filter_category: str | None = None
+    filter_category_include: bool = True
     sort_key: SortKey | None = None
     sort_reverse: bool = False
 
@@ -183,10 +173,12 @@ class TodoApp(App):
         # filter
         tasks = [
             t for t in tasks
-                if (self.filter_status is None or t.status == self.filter_status)
-                and (self.filter_category is None or t.category == self.filter_category)
-                
+                if (
+                    (self.filter_status is None or t.status == self.filter_status)
+                    and self._category_matches(t)
+                )
           ]
+          
         # sort
         if self.sort_key is not None:
             tasks.sort(
@@ -195,6 +187,15 @@ class TodoApp(App):
             )
 
         return tasks
+    
+    def _category_matches(self, task) -> bool:
+        if self.filter_category is None:
+            return True 
+        if self.filter_category_include:
+            return task.category == self.filter_category
+        else:
+            return task.category != self.filter_category
+        
 
     def _sort_key_func(self, task: Task):
         match self.sort_key:
@@ -254,11 +255,15 @@ class TodoApp(App):
     def action_filter_screen(self):
         self.push_screen(CategoryPicker(), self._on_category_selected)
 
-    def _on_category_selected(self, category: str | None):
-        if category is None:
+    def _on_category_selected(self, result: tuple[str, bool] | None):
+        if result is None:
             return
-        logging.debug(f"Selected category: {category}")
+        
+        category, include = result
+        logging.debug(f"Selected category: {category}, include: {include}")
         self.filter_category = category
+        self.filter_category_include = include
+
         self.refresh_list()
 
     def action_toggle_status(self):

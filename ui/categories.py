@@ -6,7 +6,10 @@ from textual.containers import Vertical
 
 from storage import sqlite as storage
 
-class CategoryPicker(ModalScreen[tuple[str, bool] | None]):
+class CategoryPicker(ModalScreen[tuple[str, str] | None]):
+    
+    radio_mode = "include"
+
     def compose(self):
         categorys = storage.get_categorys()
         yield Vertical(
@@ -24,15 +27,18 @@ class CategoryPicker(ModalScreen[tuple[str, bool] | None]):
         )
 
     def _get_selected_category(self) -> str | None:
-        list_view = self.query_one("#categories", ListView)
+        list_view = self.query_one("#categorys", ListView)
         if list_view.index is None:
             return None
         
         label = list_view.children[list_view.index].query_one(Label)
-        return str(label.renderable)
+        return str(label.render())
+    
+    def on_radio_set_changed(self, event: RadioSet.Changed) -> None:
+        self.radio_mode = event.pressed.label
 
     def _get_mode(self) -> bool:
-        radios = self.query_one("#mode#", RadioSet)
+        radios = self.query_one("#mode", RadioSet)
         return radios.pressed == "include"
     
     def on_list_view_selected(self, event: ListView.Selected):
@@ -45,7 +51,7 @@ class CategoryPicker(ModalScreen[tuple[str, bool] | None]):
                 self.dismiss(None)
                 return
             
-            include = self._get_mode()
-            self.dismiss((category, include))            
+            include = self.radio_mode
+            self.dismiss((category, self.radio_mode))            
         else:
                 self.dismiss(None)

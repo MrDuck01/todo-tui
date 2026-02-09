@@ -168,7 +168,11 @@ class TodoApp(App):
     def get_visible_tasks(self) -> list[Task]:
         tasks = list(self.tasks)
 
-        logging.debug(f"get_visible_tasks: filter_status={self.filter_status}, filter_category={self.filter_category}, sort_key={self.sort_key}, sort_reverse={self.sort_reverse}")
+        logging.debug(f"""get_visible_tasks: filter_status={self.filter_status}, 
+                      filter_category={self.filter_category}, 
+                      filter_category_include={self.filter_category_include} 
+                      sort_key={self.sort_key}, sort_reverse={self.sort_reverse}
+                      """)
 
         # filter
         tasks = [
@@ -191,12 +195,11 @@ class TodoApp(App):
     def _category_matches(self, task) -> bool:
         if self.filter_category is None:
             return True 
-        if self.filter_category_include:
+        if self.filter_category_include == "Include":
             return task.category == self.filter_category
         else:
             return task.category != self.filter_category
         
-
     def _sort_key_func(self, task: Task):
         match self.sort_key:
             case SortKey.NAME:
@@ -259,6 +262,7 @@ class TodoApp(App):
         if result is None:
             return
         
+        logging.debug(f"Selected category: {result}")
         category, include = result
         logging.debug(f"Selected category: {category}, include: {include}")
         self.filter_category = category

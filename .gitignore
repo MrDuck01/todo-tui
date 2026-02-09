@@ -21,3 +21,6 @@ old/
 #Build
 build/
 dist/
+
+# Logs
+*.log

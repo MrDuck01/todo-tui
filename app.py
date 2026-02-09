@@ -109,7 +109,8 @@ class TodoApp(App):
             f"Active: {active} | "
             f"In Progress: {progress} | "
             f"On Hold: {hold}\n\n"
-            f"Filter - Status: {self.filter_category} | Include Category: {self.filter_category_include}"
+            f"Filter - Status: {self.filter_status} | "
+            f"Category: {self.filter_category or 'All'} | Include/Exclude: {self.filter_category_include}"
         )
 
         self.query_one("#summary", Label).update(text_count )
@@ -169,6 +170,8 @@ class TodoApp(App):
         for task in tasks:
             list_view.append(TaskItem(task))
 
+        self.update_summary()
+        
     def get_visible_tasks(self) -> list[Task]:
         tasks = list(self.tasks)
 

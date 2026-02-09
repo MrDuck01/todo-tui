@@ -89,6 +89,8 @@ class TodoApp(App):
     ]
 
     def update_summary(self):
+        self.get_visible_tasks()
+        logging.debug("Updating summary...")
         total = len(self.tasks)
         active = sum(1 for t in self.tasks if t.status == Status.ACTIVE)
         progress = sum(1 for t in self.tasks if t.status == Status.IN_PROGRESS)
@@ -98,15 +100,19 @@ class TodoApp(App):
         logging.debug(f"Update Summary -- Active {active}")
         logging.debug(f"Update Summary -- Progress {progress}")
         logging.debug(f"Update Summary -- Hold {hold}")
+        logging.debug(f"Update Summary -- Filter Status {self.filter_status}")
+        logging.debug(f"Update Summary -- Filter Category {self.filter_category}")
+        logging.debug(f"Update Summary -- Filter Category Include {self.filter_category_include}")
         
-        text = (
+        text_count = (
             f"Total: {total} | "
             f"Active: {active} | "
             f"In Progress: {progress} | "
-            f"On Hold: {hold}"
+            f"On Hold: {hold}\n\n"
+            f"Filter - Status: {self.filter_category} | Include Category: {self.filter_category_include}"
         )
 
-        self.query_one("#summary", Label).update(text)
+        self.query_one("#summary", Label).update(text_count )
 
     def watch_summary(self, value):
         self.query_one("#summary", Label).update(value)
@@ -267,6 +273,7 @@ class TodoApp(App):
         self.filter_category_include = include
 
         self.refresh_list()
+        self.update_summary()
 
     def action_toggle_status(self):
         list_view = self.query_one(ListView)
@@ -334,6 +341,7 @@ class TodoApp(App):
         self.filter_status = None
         self.filter_category = None
         self.refresh_list()
+        self.update_summary()
 
 
 if __name__ == "__main__":

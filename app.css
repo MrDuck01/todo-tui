@@ -33,7 +33,7 @@ Screen {
 #summary-bar {
     padding: 1;
     background: $surface;
-    height: 3;
+    height: 6;
 }
 
 /* ---------- Task rows ---------- */

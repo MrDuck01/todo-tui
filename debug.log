@@ -6939,3 +6939,173 @@ DEBUG:root:Update Summary -- Total 5
 DEBUG:root:Update Summary -- Active 5
 DEBUG:root:Update Summary -- Progress 0
 DEBUG:root:Update Summary -- Hold 0
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=True 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10680a990>, <core.task.Task object at 0x106808d70>, <core.task.Task object at 0x1068322d0>, <core.task.Task object at 0x1068328d0>, <core.task.Task object at 0x1068328a0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category None
+DEBUG:root:Update Summary -- Filter Category Include True
+DEBUG:root:Selected category: ('test', Content('Include'))
+DEBUG:root:Selected category: test, include: Include
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x106808d70>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category test
+DEBUG:root:Update Summary -- Filter Category Include Include
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=True 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102607230>, <core.task.Task object at 0x102606cc0>, <core.task.Task object at 0x10262a990>, <core.task.Task object at 0x10262a570>, <core.task.Task object at 0x10262a450>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=True 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category None
+DEBUG:root:Update Summary -- Filter Category Include True
+DEBUG:root:Selected category: ('test', Content('Include'))
+DEBUG:root:Selected category: test, include: Include
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102606cc0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category test
+DEBUG:root:Update Summary -- Filter Category Include Include
+DEBUG:root:Filter applied f x 
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x102607230>, <core.task.Task object at 0x102606cc0>, <core.task.Task object at 0x10262a990>, <core.task.Task object at 0x10262a570>, <core.task.Task object at 0x10262a450>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category None
+DEBUG:root:Update Summary -- Filter Category Include Include
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=True 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10202dd90>, <core.task.Task object at 0x10202ede0>, <core.task.Task object at 0x102056180>, <core.task.Task object at 0x102056b10>, <core.task.Task object at 0x102056b40>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=None, 
+                      filter_category_include=True 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category None
+DEBUG:root:Update Summary -- Filter Category Include True
+DEBUG:root:Selected category: ('test', Content('Include'))
+DEBUG:root:Selected category: test, include: Include
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10202ede0>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Include 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category test
+DEBUG:root:Update Summary -- Filter Category Include Include
+DEBUG:root:Selected category: ('test', Content('Exclude'))
+DEBUG:root:Selected category: test, include: Exclude
+DEBUG:root:get_visible_tasks attr: <bound method TodoApp.get_visible_tasks of TodoApp(title='TodoApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Exclude 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:get_visible_tasks() returned: [<core.task.Task object at 0x10202dd90>, <core.task.Task object at 0x102056180>, <core.task.Task object at 0x102056b10>, <core.task.Task object at 0x102056b40>]
+DEBUG:root:type: <class 'list'>
+DEBUG:root:get_visible_tasks: filter_status=None, 
+                      filter_category=test, 
+                      filter_category_include=Exclude 
+                      sort_key=None, sort_reverse=False
+                      
+DEBUG:root:Updating summary...
+DEBUG:root:Update Summary -- Total 5
+DEBUG:root:Update Summary -- Active 5
+DEBUG:root:Update Summary -- Progress 0
+DEBUG:root:Update Summary -- Hold 0
+DEBUG:root:Update Summary -- Filter Status None
+DEBUG:root:Update Summary -- Filter Category test
+DEBUG:root:Update Summary -- Filter Category Include Exclude

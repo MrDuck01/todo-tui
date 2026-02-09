@@ -74,8 +74,8 @@ class TodoApp(App):
         Binding("s", "toggle_status", "Toggle"),
         Binding("d", "action_delete_task", "Delete"),
         Binding("q", "quit", "Quit"),
-        Binding("b", "filter_screen", "Filter"),
-        Binding("f", "filter_active", "Active", priority=True),
+        Binding("f", "filter_screen", "Filter"),
+        Binding("z", "filter_active", "Active", priority=True),
         Binding("i", "filter_in_progress", "In Progress", priority=True),
         Binding("h", "filter_hold", "On Hold", priority=True),
         Binding("c", "filter_cancelled", "Cancelled", priority=True),
@@ -110,8 +110,6 @@ class TodoApp(App):
 
     def watch_summary(self, value):
         self.query_one("#summary", Label).update(value)
-        def action_add_task(self):
-         self.push_screen(AddTaskScreen(), self._on_task_added)
 
     def on_mount(self):
         storage.init_db()

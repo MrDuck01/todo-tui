@@ -40,7 +40,11 @@ def get_all_tasks():
     tasks = []
 
     with get_connection() as conn:
-        rows = conn.execute("select * from tasks").fetchall()
+        rows = conn.execute("""
+                            select * 
+                            from tasks
+                            where status not in ('completed', 'deleted', 'cancelled')
+                            """).fetchall()
 
     for row in rows:
         task = Task(row[1], row[2])

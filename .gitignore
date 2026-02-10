@@ -21,7 +21,11 @@ old/
 #Build
 build/
 dist/
+<<<<<<< HEAD
 
 # Logs
 *.log
 debug.log
+=======
+debug.log
+>>>>>>> 56be7b7 (	modified:   .gitignore)
